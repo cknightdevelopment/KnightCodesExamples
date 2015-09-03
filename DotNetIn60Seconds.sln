@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithNinject", "QuartzWithNinject\QuartzWithNinject.csproj", "{7ADCC286-7FF0-40DA-8C57-20A1B00D7CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithListeners", "QuartzWithListeners\QuartzWithListeners.csproj", "{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7ADCC286-7FF0-40DA-8C57-20A1B00D7CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ADCC286-7FF0-40DA-8C57-20A1B00D7CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ADCC286-7FF0-40DA-8C57-20A1B00D7CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
