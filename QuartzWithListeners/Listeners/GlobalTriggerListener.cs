@@ -10,6 +10,10 @@ namespace QuartzWithListeners.Listeners
             Console.WriteLine("{0} -- {1} -- Trigger ({2}) was fired", Name, DateTime.Now, trigger.Key);
         }
 
+        /*
+         * NOTE: the return of this method determines if the job execution should be vetoed or not, so be sure to
+         * return true unless you really want to veto the job. Here we have dummy code just to make it random.
+         */
         public bool VetoJobExecution(ITrigger trigger, IJobExecutionContext context)
         {
             var doVeto = new Random().Next(1, 10) > 5;

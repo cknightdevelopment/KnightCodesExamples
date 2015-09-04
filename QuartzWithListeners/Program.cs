@@ -11,7 +11,6 @@ namespace QuartzWithListeners
         {
             var scheduler = new StdSchedulerFactory().GetScheduler();
 
-
             // add scheduler listener
             scheduler.ListenerManager.AddSchedulerListener(new SchedulerListener());
 
