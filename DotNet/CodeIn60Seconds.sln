@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithNinject", "Quartz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithListeners", "QuartzWithListeners\QuartzWithListeners.csproj", "{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithXmlConfiguration", "QuartzWithXmlConfiguration\QuartzWithXmlConfiguration.csproj", "{E60813AA-8415-437A-9A34-2FB0C57002F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E60813AA-8415-437A-9A34-2FB0C57002F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60813AA-8415-437A-9A34-2FB0C57002F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60813AA-8415-437A-9A34-2FB0C57002F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60813AA-8415-437A-9A34-2FB0C57002F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
