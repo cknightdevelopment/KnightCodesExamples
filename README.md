@@ -1,2 +1,2 @@
-# DotNetIn60Seconds
+# CodeIn60Seconds
 Sample code for the [CodeIn60Seconds blog](http://codein60seconds.blogspot.com/).
