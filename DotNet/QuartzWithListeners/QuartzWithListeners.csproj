@@ -54,8 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExampleJob.cs" />
-    <Compile Include="Listeners\GlobalJobListener.cs" />
-    <Compile Include="Listeners\GlobalTriggerListener.cs" />
+    <Compile Include="Listeners\JobListener.cs" />
+    <Compile Include="Listeners\TriggerListener.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Listeners\SchedulerListener.cs" />
