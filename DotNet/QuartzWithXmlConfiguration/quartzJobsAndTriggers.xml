@@ -1,29 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" version="2.0">
-
-  <processing-directives>
-    <overwrite-existing-data>true</overwrite-existing-data>
-  </processing-directives>
-
-  <schedule>
-
-    <job>
-      <name>ExampleJob</name>
-      <group>ExampleJobGroup</group>
-      <description>My example job</description>
-      <job-type>QuartzWithXmlConfiguration.ExampleJob, QuartzWithXmlConfiguration</job-type>
-    </job>
-    <trigger>
-      <cron>
-        <name>ExampleTrigger</name>
-        <group>ExampleTriggerGroup</group>
-        <job-name>ExampleJob</job-name>
-        <job-group>ExampleJobGroup</job-group>
-        <misfire-instruction>DoNothing</misfire-instruction>
-        <cron-expression>0/1 * * * * ?</cron-expression>
-      </cron>
-    </trigger>
-
-  </schedule>
-
+    <schedule>
+        <job>
+            <name>MyJob</name>
+            <group>MyJobGroup</group>
+            <description>My example job</description>
+            <job-type>QuartzWithXmlConfiguration.ExampleJob, QuartzWithXmlConfiguration</job-type>
+        </job>
+        <trigger>
+            <cron>
+                <name>MyTrigger</name>
+                <group>MyTriggerGroup</group>
+                <job-name>MyJob</job-name>
+                <job-group>MyJobGroup</job-group>
+                <misfire-instruction>DoNothing</misfire-instruction>
+                <cron-expression>0/1 * * * * ?</cron-expression>
+            </cron>
+        </trigger>
+    </schedule>
 </job-scheduling-data>
