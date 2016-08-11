@@ -1,6 +1,6 @@
 using System;
 
-namespace QuartzWithNinject
+namespace Quartz.Ninject
 {
     class GoldenRetriever : IDog
     {

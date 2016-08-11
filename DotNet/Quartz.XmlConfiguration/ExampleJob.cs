@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Threading;
-using Quartz;
 
-namespace QuartzWithXmlConfiguration
+namespace Quartz.XmlConfiguration
 {
     class ExampleJob : IJob
     {

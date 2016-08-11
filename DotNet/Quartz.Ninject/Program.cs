@@ -1,8 +1,7 @@
 ﻿using Ninject;
-using Quartz;
 using Quartz.Impl;
 
-namespace QuartzWithNinject
+namespace Quartz.Ninject
 {
     class Program
     {

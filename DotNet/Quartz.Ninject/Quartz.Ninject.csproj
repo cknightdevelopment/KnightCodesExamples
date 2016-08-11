@@ -7,8 +7,8 @@
     <ProjectGuid>{7ADCC286-7FF0-40DA-8C57-20A1B00D7CD4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuartzWithNinject</RootNamespace>
-    <AssemblyName>QuartzWithNinject</AssemblyName>
+    <RootNamespace>Quartz.Ninject</RootNamespace>
+    <AssemblyName>Quartz.Ninject</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

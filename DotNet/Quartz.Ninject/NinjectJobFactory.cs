@@ -1,10 +1,9 @@
 ﻿using System;
 using Ninject;
-using Quartz;
 using Quartz.Simpl;
 using Quartz.Spi;
 
-namespace QuartzWithNinject
+namespace Quartz.Ninject
 {
     class NinjectJobFactory : SimpleJobFactory
     {

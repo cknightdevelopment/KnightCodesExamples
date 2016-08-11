@@ -1,6 +1,6 @@
 ﻿using Quartz.Impl;
 
-namespace QuartzWithXmlConfiguration
+namespace Quartz.XmlConfiguration
 {
     class Program
     {

@@ -5,7 +5,7 @@
             <name>MyJob</name>
             <group>MyJobGroup</group>
             <description>My example job</description>
-            <job-type>QuartzWithXmlConfiguration.ExampleJob, QuartzWithXmlConfiguration</job-type>
+            <job-type>Quartz.XmlConfiguration.ExampleJob, Quartz.XmlConfiguration</job-type>
         </job>
         <trigger>
             <cron>

@@ -1,7 +1,6 @@
 using System;
-using Quartz;
 
-namespace QuartzWithNinject
+namespace Quartz.Ninject
 {
     [DisallowConcurrentExecution]
     class DogJob : IJob

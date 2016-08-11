@@ -1,7 +1,6 @@
 ﻿using System;
-using Quartz;
 
-namespace QuartzWithListeners
+namespace Quartz.Listeners
 {
     class ExampleJob : IJob
     {

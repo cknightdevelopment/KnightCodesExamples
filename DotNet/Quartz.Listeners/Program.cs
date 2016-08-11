@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Threading;
-using Quartz;
 using Quartz.Impl;
 using Quartz.Impl.Matchers;
-using QuartzWithListeners.Listeners;
+using Quartz.Listeners.Listeners;
 
-namespace QuartzWithListeners
+namespace Quartz.Listeners
 {
     class Program
     {

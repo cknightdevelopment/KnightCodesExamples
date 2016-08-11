@@ -1,4 +1,4 @@
-namespace QuartzWithNinject
+namespace Quartz.Ninject
 {
     interface IDog
     {

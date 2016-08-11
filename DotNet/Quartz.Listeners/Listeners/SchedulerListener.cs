@@ -1,7 +1,6 @@
 using System;
-using Quartz;
 
-namespace QuartzWithListeners.Listeners
+namespace Quartz.Listeners.Listeners
 {
     class SchedulerListener : ISchedulerListener
     {

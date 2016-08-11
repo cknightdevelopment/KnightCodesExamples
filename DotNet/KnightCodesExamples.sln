@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithNinject", "QuartzWithNinject\QuartzWithNinject.csproj", "{7ADCC286-7FF0-40DA-8C57-20A1B00D7CD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Ninject", "Quartz.Ninject\Quartz.Ninject.csproj", "{7ADCC286-7FF0-40DA-8C57-20A1B00D7CD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithListeners", "QuartzWithListeners\QuartzWithListeners.csproj", "{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Listeners", "Quartz.Listeners\Quartz.Listeners.csproj", "{C4F819B8-9898-445C-A4DE-4F47C4EDA85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithXmlConfiguration", "QuartzWithXmlConfiguration\QuartzWithXmlConfiguration.csproj", "{E60813AA-8415-437A-9A34-2FB0C57002F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.XmlConfiguration", "Quartz.XmlConfiguration\Quartz.XmlConfiguration.csproj", "{E60813AA-8415-437A-9A34-2FB0C57002F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.File", "NLog.File\NLog.File.csproj", "{64C284BA-805A-4A6D-AF1B-BDF5E70E8835}"
 EndProject
