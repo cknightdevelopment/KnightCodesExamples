@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.XmlConfiguration", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.File", "NLog.File\NLog.File.csproj", "{64C284BA-805A-4A6D-AF1B-BDF5E70E8835}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quartz", "Quartz", "{C96108CA-8EED-4F9B-A656-CCB7D0569FCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NLog", "NLog", "{B43B613E-3770-4CF4-9D86-72F2B8A656F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7ADCC286-7FF0-40DA-8C57-20A1B00D7CD4} = {C96108CA-8EED-4F9B-A656-CCB7D0569FCC}
+		{C4F819B8-9898-445C-A4DE-4F47C4EDA85F} = {C96108CA-8EED-4F9B-A656-CCB7D0569FCC}
+		{E60813AA-8415-437A-9A34-2FB0C57002F1} = {C96108CA-8EED-4F9B-A656-CCB7D0569FCC}
+		{64C284BA-805A-4A6D-AF1B-BDF5E70E8835} = {B43B613E-3770-4CF4-9D86-72F2B8A656F2}
 	EndGlobalSection
 EndGlobal
