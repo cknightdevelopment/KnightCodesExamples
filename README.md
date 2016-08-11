@@ -1,2 +1,2 @@
-# CodeIn60Seconds
-Sample code for the [CodeIn60Seconds blog](http://codein60seconds.blogspot.com/).
+# KnightCodesExamples
+Sample code for the [Knight Codes blog](http://knightcodes.com/).
