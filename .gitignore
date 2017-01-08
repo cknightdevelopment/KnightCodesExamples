@@ -210,3 +210,6 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+
+DotNet/Angular2RoutesWithMvc/Angular2RoutesWithMvc/app/**/*.js
